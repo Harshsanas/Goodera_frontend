@@ -21,7 +21,7 @@ export default function Search() {
           margin-left: 100px;
       }
       button {
-        margin-left: 250px;
+        margin-left: 200px;
         width: 200px;
         height: 40px;
         border-radius: 8px;

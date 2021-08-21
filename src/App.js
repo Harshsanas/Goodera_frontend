@@ -1,4 +1,5 @@
 import './App.css';
+import Element from './Element/Element';
 import Navbar from './Navbar/Navbar';
 import Search from './Search/Search';
 
@@ -8,6 +9,7 @@ function App() {
     <div>
     <Navbar/>
     <Search/>
+    <Element/>
     </div>
   );
 }
