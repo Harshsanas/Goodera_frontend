@@ -2,32 +2,41 @@ import React from 'react'
 import styled from "styled-components"
 
 export default function Element() {
-    const CARD=styled.div`
-    display: grid;
-    grid-template-columns: auto auto;
-    width: 1100px;
-    margin: 0 auto;
+    const CARD = styled.div`
+      display: grid;
+      grid-template-columns: auto auto;
+      width: 1100px;
+      margin: 0 auto;
 
-    .card{
-        background-color:white;
+      .card {
+        background-color: white;
         padding: 10px;
         border-radius: 8px;
-        height:auto;
-        float:right;
-        margin:15px;
-    }
+        height: auto;
+        float: right;
+        margin: 15px;
+      }
 
-    .box{
-        width:140px;
-        height:140px;
-        background-color:grey;
-        border-radius:8px;
+      .box {
+        width: 140px;
+        height: 140px;
+        background-color: grey;
+        border-radius: 8px;
         margin-right: 10px;
         margin-top: 28px;
-        float:left;
-    }
-    
-    `
+        float: left;
+      }
+
+      button {
+        float: right;
+        border: 2px solid #f07987;
+        color: #F07987;
+        height:25px;
+        font-weight: 600;
+        border-radius:4px;
+        background-color: transparent;
+      }
+    `;
 
     return (
       <div>
@@ -43,6 +52,7 @@ export default function Element() {
                 nisi ut aliquip ex ea commodo consequat.
               </p>
             </div>
+            <button>View Details</button>
           </div>
 
           <div className="card">
@@ -56,6 +66,7 @@ export default function Element() {
                 nisi ut aliquip ex ea commodo consequat.
               </p>
             </div>
+            <button>View Details</button>
           </div>
           <div className="card">
             <div className="box"></div>
@@ -68,6 +79,7 @@ export default function Element() {
                 nisi ut aliquip ex ea commodo consequat.
               </p>
             </div>
+            <button>View Details</button>
           </div>
           <div className="card">
             <div className="box"></div>
@@ -80,6 +92,7 @@ export default function Element() {
                 nisi ut aliquip ex ea commodo consequat.
               </p>
             </div>
+            <button>View Details</button>
           </div>
           <div className="card">
             <div className="box"></div>
@@ -92,6 +105,7 @@ export default function Element() {
                 nisi ut aliquip ex ea commodo consequat.
               </p>
             </div>
+            <button>View Details</button>
           </div>
           <div className="card">
             <div className="box"></div>
@@ -104,6 +118,7 @@ export default function Element() {
                 nisi ut aliquip ex ea commodo consequat.
               </p>
             </div>
+            <button>View Details</button>
           </div>
           <div className="card">
             <div className="box"></div>
@@ -116,6 +131,7 @@ export default function Element() {
                 nisi ut aliquip ex ea commodo consequat.
               </p>
             </div>
+            <button>View Details</button>
           </div>
         </CARD>
       </div>

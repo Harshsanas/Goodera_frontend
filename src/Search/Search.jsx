@@ -4,7 +4,7 @@ export default function Search() {
     //Search bar CSS
     const SEARCH = styled.div`
       height: 70px;
-      width: 70%;
+      width: 73%;
       margin-top: -30px;
       margin-left: 200px;
       border-radius: 8px;
